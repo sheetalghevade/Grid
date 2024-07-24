@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SampleSuite" parallel="tests" thread-count="4">
+	
+	<test name="AWS docker grid test">
+		<classes>
+			<class name="docker_aws.Firefox_AWS"></class>
+			<class name="docker_aws.Chrome_AWS"></class>
+			
+		</classes>
+	</test>
+	
+</suite>
