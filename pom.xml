@@ -4,6 +4,13 @@
   <artifactId>Grid</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+	  <maven.compiler.source>17</maven.compiler.source>
+	  <maven.compiler.target>17</maven.compiler.target>
+	  <suiteFile>localDocker.xml</suiteFile>
+	  
+  </properties>
+  
   <build>
 	  <plugins>
 		  <plugin>
@@ -20,7 +27,7 @@
 			  <version>2.22.2</version>
 			  <configuration>
 				  <suiteXmlFiles>
-					  <suiteXmlFile>localDocker.xml</suiteXmlFile>
+					  <suiteXmlFile>${suiteFile}</suiteXmlFile>-->
 				  </suiteXmlFiles>
 			  </configuration>
 		  </plugin>
