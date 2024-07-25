@@ -20,8 +20,7 @@
 			  <version>2.22.2</version>
 			  <configuration>
 				  <suiteXmlFiles>
-					  <suiteXmlFile>testNg.xml</suiteXmlFile>
-					  <suiteXmlFile>sample.xml</suiteXmlFile>
+					  <suiteXmlFile>localDocker.xml</suiteXmlFile>
 				  </suiteXmlFiles>
 			  </configuration>
 		  </plugin>
