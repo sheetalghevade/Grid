@@ -13,7 +13,7 @@ public class Chrome_AWS {
 		
 		DesiredCapabilities co = new DesiredCapabilities();
 		co.setBrowserName("chrome");
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.184:4444"), co);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://54.153.97.192:4444"), co);
 		driver.get("https://www.xe.com/");
 			Thread.sleep(4000);
 		driver.quit();		
@@ -25,7 +25,7 @@ public class Chrome_AWS {
 		System.out.println("Test2 on chrome");
 		DesiredCapabilities co = new DesiredCapabilities();
 		co.setBrowserName("chrome");
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.184:4444"), co);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://54.153.97.192:4444"), co);
 		driver.get("https://www.google.com/");
 			Thread.sleep(4000);
 		driver.quit();	
@@ -37,7 +37,7 @@ public class Chrome_AWS {
 		System.out.println("Test3 on chrome");
 		DesiredCapabilities co = new DesiredCapabilities();
 		co.setBrowserName("chrome");
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.184:4444"), co);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://54.153.97.192:4444"), co);
 		driver.get("https://www.youtube.com/");
 			Thread.sleep(4000);
 		driver.quit();	
@@ -49,7 +49,7 @@ public class Chrome_AWS {
 		System.out.println("Test4 for chrome");
 		DesiredCapabilities co = new DesiredCapabilities();
 		co.setBrowserName("chrome");
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.184:4444"), co);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://54.153.97.192:4444"), co);
 		driver.get("https://www.youtube.com/");
 			Thread.sleep(4000);
 		driver.quit();	
