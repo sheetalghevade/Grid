@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [SampleSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="AWS docker grid test(failed)">
+    <classes>
+      <class name="docker_aws.Chrome_AWS">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- docker_aws.Chrome_AWS -->
+      <class name="docker_aws.Firefox_AWS">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- docker_aws.Firefox_AWS -->
+    </classes>
+  </test> <!-- AWS docker grid test(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

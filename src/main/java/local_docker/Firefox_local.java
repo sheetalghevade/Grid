@@ -58,5 +58,16 @@ public class Firefox_local {
 			Thread.sleep(4000);
 		driver.quit();	
 	}
+	
+	@Test
+	public static void test5() throws Exception {
+		System.out.println("Test5 for firefox");
+		DesiredCapabilities co = new DesiredCapabilities();
+		co.setBrowserName("firefox");
+		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"), co);
+		driver.get("https://www.medium.com/");
+			Thread.sleep(4000);
+		driver.quit();	
+	}
 
 }
